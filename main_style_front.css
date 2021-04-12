@@ -1,0 +1,512 @@
+/* Style fuer HTML-Wiki der 9-3
+
+        Author: Elias Mueller */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: auto;
+    width: 85%;
+    background-color: #e5e5e5;
+    box-sizing: border-box;
+    /*margin: 0px auto;*/
+}
+
+#welcome-message{
+    height: 810px;
+    width:100%;
+    /*background: #49bed3;*/
+    background-image: url(Gruen.jpg);
+    color: #fff;
+    font-family: 'Titillium Web';
+    text-align:center;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#ws-inside{
+	padding: 20px;
+	border: 4px solid #fff;
+    margin: auto;
+}
+ 
+h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-transform:uppercase;
+    margin: 0;
+}
+ 
+h3{
+    font-size: 17px;
+    margin: 0;
+}
+
+
+#maincontent {
+    background-color: white;
+    height: auto;
+    margin: 1%;
+    text-align: center;
+    line-height: 150%;
+}
+
+#navigation {
+    text-align: center;
+    vertical-align: middle;
+    background-size: cover;
+    padding-top: 1%;
+    /*background-image: url(Rot.jpg); */
+    margin-top: 5px;
+}
+
+.navBar_a {
+    font-size: 0.9rem;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+    /* color: black;
+    font-weight: bold; */
+}
+
+.navBar_box1 {
+    width: 25%;
+    line-height: 6vh;
+    display: inline-block;
+    text-decoration: none;
+    background-image: url(Rot.jpg);
+}
+
+.navBar_box2 {
+    width: 25%;
+    line-height: 6vh;
+    display: inline-block;
+    text-decoration: none;
+    background-image: url(Orange.jpg);
+}
+
+.navBar_box3 {
+    width: 25%;
+    line-height: 6vh;
+    display: inline-block;
+    text-decoration: none;
+    background-image: url(Gelb.jpg);
+}
+
+.navBar_box4 {
+    width: 24%;
+    line-height: 6vh;
+    display: inline-block;
+    text-decoration: none;
+    background-image: url(Blau.jpg);
+}
+/*.navBar_a:hover {
+    padding: 2vh;
+    background-image: url(Orange.jpg);
+}
+.navBar_a:focus {
+    padding: 2vh;
+    background-image: url(Orange.jpg);
+}
+*/
+
+.site-h2 {
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 23px;
+}
+
+#zu_menues {
+    text-decoration: underline;
+}
+
+#show_m {
+    width: 23%;
+    line-height: 150%;
+    display: inline;
+    text-decoration: none;
+    padding: 1%;
+    float: left;
+    height: 200px;
+}
+
+
+#navigation_sub {
+    text-align: center;
+    vertical-align: middle;
+    background-size: cover;
+    /*padding-top: 1%;
+     background-image: url(Rot.jpg); */
+    margin-top: 20px;
+    width: 55%;
+    float: right;
+}
+
+.navBar_name_sub {
+    width: 43%;
+    line-height: 5vh;
+    display: inline-block;
+    text-decoration: none;
+    background-image: url(Gruen.jpg);
+    /*background-image: url(Rot.jpg); */
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background-size: cover;
+    font-size: 18px;
+}
+
+.navBar_name_sub_a {
+    font-size: 0.9rem;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+    /* color: black;
+    font-weight: bold; */
+}
+
+.navBar_box1_sub {
+    width: 24%;
+    line-height: 5vh;
+    display: inline-block;
+    text-decoration: none;
+    background-image: url(Rot.jpg);
+}
+
+.navBar_box2_sub {
+    width: 24%;
+    line-height: 5vh;
+    display: inline-block;
+    text-decoration: none;
+    background-image: url(Orange.jpg);
+}
+
+.navBar_box3_sub {
+    width: 25%;
+    line-height: 5vh;
+    display: inline-block;
+    text-decoration: none;
+    background-image: url(Gelb.jpg);
+}
+
+.navBar_box4_sub {
+    width: 25%;
+    line-height: 5vh;
+    display: inline-block;
+    text-decoration: none;
+    background-image: url(Blau.jpg);
+}
+
+#text-headline-about {
+    text-decoration: underline;
+}
+
+#aiudi {
+width: 45%;
+line-height: 150%;
+display: inline;
+text-decoration: none;
+padding-left: 1%;
+float: left;
+background-color: white;
+text-align: center;
+}
+
+#aiuaufvw {
+    width: 45%;
+    line-height: 150%;
+    display: inline;
+    text-decoration: none;
+    padding-left: 5%;
+    float: left;
+    background-color: white;
+    text-align: center;
+    
+
+}
+
+#ueber-html {
+    width: 45%;
+    text-align: center;
+    margin: auto auto;
+} 
+
+.code {
+    background-color: lightgray;
+    color: black;
+    width: 30%;
+    margin: 0px auto;
+    border: 2px solid;
+}
+
+.syntax {
+    color: red;
+    font-weight: bold;
+}
+
+.p-center {
+text-align: center;
+}
+
+#maincontent-align-left {
+    background-color: white;
+    height: auto;
+    margin: 1%;
+    text-align: left;
+    line-height: 150%;
+
+}
+
+.abschnittsunterteilung-h3 {
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+.img_datei_create {
+    width: 1400px;
+    height: 700px;
+}
+
+.improve_h {
+    text-transform: inherit;
+    font-size: 20px;
+    text-align: center;
+}
+
+#submitbtn_form {
+    padding: 7px;
+
+}
+
+#contactform_message {
+    width: 350px;
+    height: 80px;
+}
+
+#gdh {
+    text-align: center;
+}
+
+#headerinfo {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#bodyinfo {
+    margin-right: 20px;
+    text-align: right;
+}
+
+.attention {
+    font-weight: 100;
+    color: orange;
+}
+
+.site-nav-ol {
+    text-decoration: none;
+    float: left;
+    text-align: left;
+}
+
+.site-nav-ol li a {
+    text-decoration: none;
+}
+
+.site-nav-ol li a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+.site-nav {
+    margin: 0px auto;
+}
+
+.befehlsdarstellung {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-collapse:collapse;
+    border-left: 2px solid #4D4D4D;
+    border-right: 2px solid #4D4D4D;
+    border-bottom: 2px solid #4D4D4D;
+    margin-bottom: 20px;    
+}
+
+.befehlsdarstellung thead {
+    border-top : 4px solid #FF7F00;
+    background-color: #4D4D4D !important;
+    color: white;
+    text-align: right;
+    font-size: 16pt;
+}
+
+#bereich_textstruktur thead {
+    border-top : 4px solid #CCCC00;
+}
+
+#bereich_textstellen thead {
+    border-top : 4px solid #00E500;
+}
+
+#bereich_links thead {
+    border-top : 4px solid #00A9FF;
+}
+
+#bereich_auszaehlungen thead {
+    border-top : 4px solid #0000FF;
+}
+
+#bereich_div_span thead {
+    border-top : 4px solid #D400FF;
+}
+
+#bereich_farben thead {
+    border-top : 4px solid #FF0000;
+}
+
+#bereich_sonstiges thead {
+    border-top : 4px solid #7F7F7F;
+}
+
+#bereiche_html5 {
+    border-top : 4px solid orange;
+}
+
+
+
+
+.befehlsdarstellung thead tr {
+    background-color: #4D4D4D;
+}    
+.befehlsdarstellung .spaltenbes {
+    background-color: #CFCFCF;
+    text-align: left;
+    color: black;
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+.befehlsdarstellung th {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.befehlsdarstellung td {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+tr:nth-child(2n+2) {
+  background-color: #f6f6f6;
+}
+
+tr:nth-child(2n+1) {
+  background-color: #eee;
+}
+
+.befehlsdarstellung tbody tr td {
+    font-family: 'Source Code Pro', sans-serif;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.befehlsdarstellung tbody tr td+td {
+    border-left: 3px solid white;
+    font-family: Arial, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.quellcode_einr1 {
+    text-indent:1em;
+} 
+
+.quellcode_einr2 {
+    text-indent:2em;
+}
+
+.befehlsdarstellung tbody tr:hover {
+    background-color: yellow;
+}
+  
+table a {
+  text-decoration: none;
+}
+  
+table a:hover {
+  text-decoration: underline;
+}
+
+.tabelle_hervorhebung {
+    color: white;
+    background-color: #00ab00;
+   }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    background-color: gray;
+    color: wheat;
+    bottom: 0px;
+    width:100%;
+    /*text-align: center; */
+}
+
+.footer_a {
+
+    color:black;
+    float: right;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    text-align: right;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer_info_left_name {
+    color:black;
+    /*float: left;*/
+    background-color: gray;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    text-align: left;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer_info_date {
+    color:black;
+    /*float: left;*/
+    background-color: gray;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    text-align: left;
+    font-size: 13px;
+    text-decoration: none;
+}
